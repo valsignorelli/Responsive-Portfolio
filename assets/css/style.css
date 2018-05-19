@@ -1,0 +1,1933 @@
+body {
+	background: url(./../../../../week2/Mediaquerie/assets/images/bluebackground.jpg);
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	max-width: 1000px;
+	margin: auto;
+}
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #FFFFFF;
+  border-bottom: 1px solid #ccc;
+  position: static;
+}
+
+.navbar {
+	position: static;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#val {
+font-family:  "Georgia", Times, Times New Roman, serif;
+font-weight: bold;
+font-size: 28px;
+float: left;
+background: #4aaaa5;
+color: white;
+padding: 20px;
+margin-bottom: -20px;
+margin-left: 160px;
+position: absolute;
+
+}
+
+nav {
+  float: right;
+  margin: 0 0px 0 0; 
+  
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 15px;
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0 25 0 0;
+}
+
+
+ul {
+	width: 100%;
+	margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #FFFFFF;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	
+}
+
+li {
+    float: left;
+	
+}
+
+li a {
+    display: inline-block;
+    color: #777777;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+
+li a:hover {
+    background-color: #4AAAA5;
+	color: #fff;
+	padding: 20px;
+	
+}
+
+section {
+	width: 800px;
+	height: 960px;
+	padding: 0;
+	margin: 0;
+}
+
+
+.about {
+	width: 100%;
+	height: 500px;
+	padding: 30px;
+	margin: 70px 0;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important; 
+	color: #777777;
+	line-height: 1.3em;
+}
+
+
+.contact {
+	width: 700px;
+	height: 550px;
+	padding: 20px;
+	margin-top: 50px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 1.5em;
+}
+
+
+.portfolio {
+	width: 100%;
+	height: 850px;
+	padding: 20px;
+	margin-top: 50px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	
+}
+
+
+div.gallery {
+    margin: 0;
+    float: left;
+    width: 180px;
+}
+
+
+div.gallery#imgdown {
+	clear: left;
+}
+
+div.gallery#imgdown2 {
+	clear: left;
+}
+
+div.gallery:hover {
+   opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+div.gallery img {
+    width: 70%;
+    height: auto;
+}
+
+div.desc {
+  
+    text-align: center;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+  
+    background-color: #4AAAA5;
+	font-size: 14px;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 14px 20px;
+	margin: 15px 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 16px;
+    resize: vertical;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 30px;
+}
+
+img {
+	padding: 30px;
+}
+
+p {
+	padding: 20px;
+}
+
+footer {
+	padding: 15px;
+	margin-top: 0px;
+	background-color: #666;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	position: -webkit-sticky;
+	position: sticky;
+}
+
+.line {
+padding: 3px;
+background-color: #4aaaa5;
+margin-top: 47px;
+	
+}
+
+@media screen and (max-width: 980px) {
+      nav a {   
+        float: none;
+		width: 100%;
+		margin: 0 10px 0;
+		padding: 20px 0px 20px 30px;
+		font-size: 14px;
+		text-align: center;
+		
+		
+    }
+	
+	.container {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	nav ul {
+		width: 600px;
+		float: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	
+	.navbar {   
+        float: none;
+		width: 100%;
+		font-size: 14px;
+		text-align: center;
+		margin: 0;
+		padding: 0;		
+    }
+	
+	#val {
+		float: left;
+		width: 30%;
+		font-size: 30px;
+		padding: 19px;
+		margin: 0 0 0 30px;
+		text-align: center;
+		
+	}
+	
+	li a:hover {
+		padding: 30px 20px 10px 20px;
+		background-color: orange;
+	}
+	
+	img {
+		width: 250px;
+		padding: 20px 25px 15px 25px;	
+	}
+	
+
+	.about {
+		width: 650px;
+		height: 780px;
+		padding: 10px;
+		margin-left: 30px;
+	}
+	
+	.portfolio {
+		width: 600px;
+		margin-left: 30px;
+	}
+	
+	
+	div.gallery {
+   	   margin: 0;
+       float: left;
+       width: 200px;
+}
+
+
+div.gallery#imgdown {
+	clear: left;
+}
+
+div.gallery#imgdown2 {
+	clear: left;
+}
+
+div.gallery:hover {
+   opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+div.gallery img {
+    width: 70%;
+    height: auto;
+}
+	
+div.contact {
+	width: 650px;
+	height: 630px;
+	margin: 50px 0 0;
+	}
+	
+	.contact form {
+	width: 500px;
+	height: 300px;
+	padding: 20px;
+	margin-top: 50px;
+	
+}
+	
+.contact input[type=text], select {
+    width: 600px;
+    padding: 12px 20px;
+    margin: 15px 10px;
+ 
+}
+
+.contact textarea {
+		width: 600px;
+	}
+	
+.contactline .line {
+		position: -webkit-sticky;
+	    position: sticky;
+		margin-top: 20px;
+		
+	}
+
+footer {
+		position: sticky;
+		margin-top: 0;
+	}
+	
+	
+	p {
+		font-size: 17px;
+		line-height: 1.5em;
+	}
+	
+	h1 {
+		font-size: 35px;
+	
+	}
+	
+}
+
+
+
+@media screen and (max-width: 768px) {
+      nav a {   
+        float: none;
+		width: 100%;
+		margin: 0;
+		font-size: 12px;
+		text-align: center;
+    }
+	
+	.container {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	nav ul {
+		width: 510px;
+		float: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	
+	.navbar {   
+        float: none;
+		width: 100%;
+		font-size: 12px;
+		text-align: center;	
+    }
+	
+	#val {
+		float: left;
+		width: 30%;
+		font-size: 25px;
+		padding: 21px;
+		margin: 0 0 0 30px;
+		text-align: center;
+		
+	}
+	
+	li a:hover {
+		padding: 30px 20px 10px 20px;
+		background-color: lightblue;
+	}
+	
+	img {
+		width: 250px;
+		padding: 20px 25px 15px 25px;
+		
+		
+	}
+
+	
+	.about {
+		width: 550px;
+		height: 825px;
+		padding: 10px;
+		margin: 50px
+	}
+	
+	.portfolio {
+		width: 650px;
+		height: 900px;
+		margin: 50px 30px;
+	}
+	
+	
+div.gallery {
+    margin: 0;
+    float: left;
+    width: 180px;
+	padding: 10px;
+}
+
+
+div.gallery#imgdown {
+	clear: none;
+}
+
+div.gallery#imgdown2 {
+	clear: left;
+}
+
+div.gallery:hover {
+   opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+div.gallery img {
+    width: 90%;
+    height: auto;
+}
+	
+	
+	div.contact {
+		width: 670px;
+		height: 630px;
+		margin: 30px 20px 0;
+	}
+	
+	.contact form {
+	width: 500px;
+	height: 300px;
+	padding: 20px;
+	margin-top: 50px;
+	
+}
+	
+.contact input[type=text], select {
+    width: 640px;
+    padding: 12px 20px;
+    margin: 15px 10px;
+ 
+}
+
+	.contact textarea {
+		width: 640px;
+	}
+	
+	.contactline .line {
+		position: -webkit-sticky;
+	    position: sticky;
+		margin-top: 20px;
+		
+	}
+
+	footer {
+		position: sticky;
+		margin-top: 0;
+	}
+	
+
+	p {
+		font-size: 16px;
+		line-height: 1.5em;
+	}
+	
+	h1 {
+		font-size: 30px;
+	}
+	
+}
+
+
+
+@media screen and (max-width: 640px) {
+    nav a {   
+        float: none;
+		width: 100%;
+		margin: 40px 0 0 0;
+		font-size: 12px;
+		text-align: center;	
+    }
+	
+	.container {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	nav ul {
+		width: 600px;
+		float: none;
+		padding: 10px;
+		margin: 0 0 0 10px;
+		text-align: center;
+	}
+	
+	.navbar {   
+        float: none;
+		width: 100%;
+		font-size: 12px;
+		text-align: center;
+    }
+	
+	#val {
+		float: left;
+		width: 100%;
+		font-size: 20px;
+		padding: 20px;
+		margin: 0;
+		text-align: center;		
+	}
+	
+	img {
+		width: 450px;
+		padding: 20px 5px 15px 25px;	
+	}
+	
+	p{
+		font-size: 13px;
+	}
+	
+	.about {
+		width: 500px;
+		height: 760px;
+		padding: 10px;
+		margin: 50px 50px 0 50px;
+	}
+	
+	.portfolio {
+		width: 550px;
+		height: 4300px;
+		margin-left: 20px;
+	}
+	
+	
+div.gallery {
+    margin: 0;
+    float: left;
+    width: 480px;
+}
+
+
+div.gallery:hover {
+   opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+	h1 {
+		font-size: 20px;
+	}
+	
+	div.contact {
+		width: 550px;
+		height: 630px;
+		margin: 30px 20px 0;
+	}
+	
+	.contact form {
+	width: 500px;
+	height: 300px;
+	padding: 20px;
+	margin-top: 50px;
+	
+}
+	
+.contact input[type=text], select {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 15px 10px;
+ 
+}
+
+	.contact textarea {
+		width: 500px;
+	}
+	
+	.contactline .line {
+		position: -webkit-sticky;
+	    position: sticky;
+		margin-top: 20px;
+		
+	}
+
+	footer {
+		position: sticky;
+		margin-top: 0;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+body {
+	background: url(./../../../../week2/Mediaquerie/assets/images/bluebackground.jpg);
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	max-width: 1000px;
+	margin: auto;
+}
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #FFFFFF;
+  border-bottom: 1px solid #ccc;
+  position: static;
+}
+
+.navbar {
+	position: static;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#val {
+font-family:  "Georgia", Times, Times New Roman, serif;
+font-weight: bold;
+font-size: 28px;
+float: left;
+background: #4aaaa5;
+color: white;
+padding: 20px;
+margin-bottom: -20px;
+margin-left: 160px;
+position: absolute;
+
+}
+
+nav {
+  float: right;
+  margin: 0 0px 0 0; 
+  
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 15px;
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0 25 0 0;
+}
+
+
+ul {
+	width: 100%;
+	margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #FFFFFF;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	
+}
+
+li {
+    float: left;
+	
+}
+
+li a {
+    display: inline-block;
+    color: #777777;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+
+li a:hover {
+    background-color: #4AAAA5;
+	color: #fff;
+	padding: 20px;
+	
+}
+
+section {
+	width: 800px;
+	height: 960px;
+	padding: 0;
+	margin: 0;
+}
+
+
+.about {
+	width: 100%;
+	height: 500px;
+	padding: 30px;
+	margin: 70px 0;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important; 
+	color: #777777;
+	line-height: 1.3em;
+}
+
+
+.contact {
+	width: 100%;
+	height: 550px;
+	padding: 20px;
+	margin-top: 50px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 1.5em;
+}
+
+
+.portfolio {
+	width: 100%;
+	height: 850px;
+	padding: 20px;
+	margin-top: 50px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	
+}
+
+
+div.gallery {
+    margin: 0;
+    float: left;
+    width: 180px;
+}
+
+
+div.gallery#imgdown {
+	clear: left;
+}
+
+div.gallery#imgdown2 {
+	clear: left;
+}
+
+div.gallery:hover {
+   opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+div.gallery img {
+    width: 70%;
+    height: auto;
+}
+
+div.desc {
+  
+    text-align: center;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+  
+    background-color: #4AAAA5;
+	font-size: 14px;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 14px 20px;
+	margin: 15px 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 16px;
+    resize: vertical;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 30px;
+}
+
+img {
+	padding: 30px;
+}
+
+p {
+	padding: 20px;
+}
+
+footer {
+	padding: 15px;
+	margin-top: 0px;
+	background-color: #666;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	position: -webkit-sticky;
+	position: sticky;
+}
+
+.line {
+padding: 3px;
+background-color: #4aaaa5;
+margin-top: 47px;
+	
+}
+
+@media screen and (max-width: 980px) {
+      nav a {   
+        float: none;
+		width: 100%;
+		margin: 0 10px 0;
+		padding: 20px 0px 20px 30px;
+		font-size: 14px;
+		text-align: center;
+		
+		
+    }
+	
+	.container {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	nav ul {
+		width: 600px;
+		float: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	
+	.navbar {   
+        float: none;
+		width: 100%;
+		font-size: 14px;
+		text-align: center;
+		margin: 0;
+		padding: 0;		
+    }
+	
+	#val {
+		float: left;
+		width: 30%;
+		font-size: 30px;
+		padding: 19px;
+		margin: 0 0 0 30px;
+		text-align: center;
+		
+	}
+	
+	li a:hover {
+		padding: 30px 20px 10px 20px;
+		background-color: orange;
+	}
+	
+	img {
+		width: 250px;
+		padding: 20px 25px 15px 25px;	
+	}
+	
+
+	.about {
+		width: 650px;
+		height: 780px;
+		padding: 10px;
+		margin-left: 30px;
+	}
+	
+	.portfolio {
+		width: 600px;
+		margin-left: 30px;
+	}
+	
+	
+	div.gallery {
+   	   margin: 0;
+       float: left;
+       width: 200px;
+}
+
+
+div.gallery#imgdown {
+	clear: left;
+}
+
+div.gallery#imgdown2 {
+	clear: left;
+}
+
+div.gallery:hover {
+   opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+div.gallery img {
+    width: 70%;
+    height: auto;
+}
+	
+	p {
+		font-size: 17px;
+		line-height: 1.5em;
+	}
+	
+	h1 {
+		font-size: 35px;
+	
+	}
+	
+}
+
+
+
+@media screen and (max-width: 768px) {
+      nav a {   
+        float: none;
+		width: 100%;
+		margin: 0;
+		font-size: 12px;
+		text-align: center;
+    }
+	
+	.container {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	nav ul {
+		width: 510px;
+		float: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	
+	.navbar {   
+        float: none;
+		width: 100%;
+		font-size: 12px;
+		text-align: center;	
+    }
+	
+	#val {
+		float: left;
+		width: 30%;
+		font-size: 25px;
+		padding: 21px;
+		margin: 0 0 0 30px;
+		text-align: center;
+		
+	}
+	
+	li a:hover {
+		padding: 30px 20px 10px 20px;
+		background-color: lightblue;
+	}
+	
+	img {
+		width: 250px;
+		padding: 20px 25px 15px 25px;
+		
+		
+	}
+
+	
+	.about {
+		width: 550px;
+		height: 825px;
+		padding: 10px;
+		margin: 50px
+	}
+	
+	.portfolio {
+		width: 650px;
+		height: 900px;
+		margin: 50px 30px;
+	}
+	
+	
+div.gallery {
+    margin: 0;
+    float: left;
+    width: 180px;
+	padding: 10px;
+}
+
+
+div.gallery#imgdown {
+	clear: none;
+}
+
+div.gallery#imgdown2 {
+	clear: left;
+}
+
+div.gallery:hover {
+   opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+div.gallery img {
+    width: 90%;
+    height: auto;
+}
+	
+	p {
+		font-size: 16px;
+		line-height: 1.5em;
+	}
+	
+	h1 {
+		font-size: 30px;
+	}
+	
+}
+
+
+
+@media screen and (max-width: 640px) {
+    nav a {   
+        float: none;
+		width: 100%;
+		margin: 40px 0 0 0;
+		font-size: 12px;
+		text-align: center;	
+    }
+	
+	.container {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	nav ul {
+		width: 600px;
+		float: none;
+		padding: 10px;
+		margin: 0 0 0 10px;
+		text-align: center;
+	}
+	
+	.navbar {   
+        float: none;
+		width: 100%;
+		font-size: 12px;
+		text-align: center;
+    }
+	
+	#val {
+		float: left;
+		width: 100%;
+		font-size: 20px;
+		padding: 20px;
+		margin: 0;
+		text-align: center;		
+	}
+	
+	img {
+		width: 450px;
+		padding: 20px 5px 15px 25px;	
+	}
+	
+	p{
+		font-size: 13px;
+	}
+	
+	.about {
+		width: 500px;
+		height: 760px;
+		padding: 10px;
+		margin: 50px 50px 0 50px;
+	}
+	
+	.portfolio {
+		width: 550px;
+		height: 4300px;
+		margin-left: 20px;
+	}
+	
+	
+div.gallery {
+    margin: 0;
+    float: left;
+    width: 480px;
+}
+
+
+div.gallery:hover {
+   opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+	h1 {
+		font-size: 20px;
+	}
+
+	.line {
+		position: -webkit-sticky;
+	    position: sticky;
+		margin-top: 3500px;
+		
+	}
+
+	footer {
+		position: sticky;
+		margin-top: 0;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+body {
+	background: url(./../../../../week2/Mediaquerie/assets/images/bluebackground.jpg);
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	max-width: 1000px;
+	margin: auto;
+}
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #FFFFFF;
+  border-bottom: 1px solid #ccc;
+  position: static;
+}
+
+.navbar {
+	position: static;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#val {
+font-family:  "Georgia", Times, Times New Roman, serif;
+font-weight: bold;
+font-size: 28px;
+float: left;
+background: #4aaaa5;
+color: white;
+padding: 20px;
+margin-bottom: -20px;
+margin-left: 160px;
+position: absolute;
+
+}
+
+nav {
+  float: right;
+  margin: 0 0px 0 0; 
+  
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 15px;
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0 25 0 0;
+}
+
+
+ul {
+	width: 100%;
+	margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #FFFFFF;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	
+}
+
+li {
+    float: left;
+	
+}
+
+li a {
+    display: inline-block;
+    color: #777777;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+
+li a:hover {
+    background-color: #4AAAA5;
+	color: #fff;
+	padding: 20px;
+	
+}
+
+section {
+	width: 800px;
+	height: 960px;
+	padding: 0;
+	margin: 0;
+}
+
+
+.about {
+	width: 100%;
+	height: 500px;
+	padding: 30px;
+	margin: 70px 0;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important; 
+	color: #777777;
+	line-height: 1.3em;
+}
+
+
+.contact {
+	width: 100%;
+	height: 550px;
+	padding: 20px;
+	margin-top: 50px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 1.5em;
+}
+
+
+.portfolio {
+	width: 100%;
+	height: 850px;
+	padding: 20px;
+	margin-top: 50px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	
+}
+
+
+div.gallery {
+    margin: 0;
+    float: left;
+    width: 180px;
+}
+
+
+div.gallery#imgdown {
+	clear: left;
+}
+
+div.gallery#imgdown2 {
+	clear: left;
+}
+
+div.gallery:hover {
+   opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+div.gallery img {
+    width: 70%;
+    height: auto;
+}
+
+div.desc {
+  
+    text-align: center;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+  
+    background-color: #4AAAA5;
+	font-size: 14px;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 14px 20px;
+	margin: 15px 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 16px;
+    resize: vertical;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 30px;
+}
+
+img {
+	padding: 30px;
+}
+
+p {
+	padding: 20px;
+}
+
+footer {
+	padding: 15px;
+	margin-top: 0px;
+	background-color: #666;
+	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	position: -webkit-sticky;
+	position: sticky;
+}
+
+.line {
+padding: 3px;
+background-color: #4aaaa5;
+margin-top: 47px;
+	
+}
+
+
+@media screen and (max-width: 980px) {
+      nav a {   
+        float: none;
+		width: 100%;
+		margin: 0 10px 0;
+		padding: 20px 0px 20px 30px;
+		font-size: 14px;
+		text-align: center;
+		
+		
+    }
+	
+	.container {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	nav ul {
+		width: 600px;
+		float: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	
+	.navbar {   
+        float: none;
+		width: 100%;
+		font-size: 14px;
+		text-align: center;
+		margin: 0;
+		padding: 0;		
+    }
+	
+	#val {
+		float: left;
+		width: 30%;
+		font-size: 30px;
+		padding: 19px;
+		margin: 0 0 0 30px;
+		text-align: center;
+		
+	}
+	
+	li a:hover {
+		padding: 30px 20px 10px 20px;
+		background-color: orange;
+	}
+	
+	img {
+		width: 250px;
+		padding: 20px 25px 15px 25px;	
+	}
+	
+
+	.about {
+		width: 650px;
+		height: 780px;
+		padding: 10px;
+		margin-left: 30px;
+	}
+	
+	.portfolio {
+		width: 600px;
+		margin-left: 30px;
+	}
+	
+	
+	div.gallery {
+   	   margin: 0;
+       float: left;
+       width: 200px;
+}
+
+
+div.gallery#imgdown {
+	clear: left;
+}
+
+div.gallery#imgdown2 {
+	clear: left;
+}
+
+div.gallery:hover {
+   opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+div.gallery img {
+    width: 70%;
+    height: auto;
+}
+	
+div.contact {
+	width: 650px;
+	height: 630px;
+	margin: 50px 0 0;
+	}
+	
+	.contact form {
+	width: 500px;
+	height: 300px;
+	padding: 20px;
+	margin-top: 50px;
+	
+}
+	
+.contact input[type=text], select {
+    width: 600px;
+    padding: 12px 20px;
+    margin: 15px 10px;
+ 
+}
+
+.contact textarea {
+		width: 600px;
+	}
+	
+.contactline .line {
+		position: -webkit-sticky;
+	    position: sticky;
+		margin-top: 20px;
+		
+	}
+
+footer {
+		position: sticky;
+		margin-top: 0;
+	}
+	
+	
+	p {
+		font-size: 17px;
+		line-height: 1.5em;
+	}
+	
+	h1 {
+		font-size: 35px;
+	
+	}
+	
+}
+
+
+
+@media screen and (max-width: 768px) {
+      nav a {   
+        float: none;
+		width: 100%;
+		margin: 0;
+		font-size: 12px;
+		text-align: center;
+    }
+	
+	.container {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	nav ul {
+		width: 510px;
+		float: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	
+	.navbar {   
+        float: none;
+		width: 100%;
+		font-size: 12px;
+		text-align: center;	
+    }
+	
+	#val {
+		float: left;
+		width: 30%;
+		font-size: 25px;
+		padding: 21px;
+		margin: 0 0 0 30px;
+		text-align: center;
+		
+	}
+	
+	li a:hover {
+		padding: 30px 20px 10px 20px;
+		background-color: lightblue;
+	}
+	
+	img {
+		width: 250px;
+		padding: 20px 25px 15px 25px;
+		
+		
+	}
+
+	
+	.about {
+		width: 550px;
+		height: 825px;
+		padding: 10px;
+		margin: 50px
+	}
+	
+	.portfolio {
+		width: 650px;
+		height: 900px;
+		margin: 50px 30px;
+	}
+	
+	
+div.gallery {
+    margin: 0;
+    float: left;
+    width: 180px;
+	padding: 10px;
+}
+
+
+div.gallery#imgdown {
+	clear: none;
+}
+
+div.gallery#imgdown2 {
+	clear: left;
+}
+
+div.gallery:hover {
+   opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+div.gallery img {
+    width: 90%;
+    height: auto;
+}
+	
+	
+	div.contact {
+		width: 670px;
+		height: 630px;
+		margin: 30px 20px 0;
+	}
+	
+	.contact form {
+	width: 500px;
+	height: 300px;
+	padding: 20px;
+	margin-top: 50px;
+	
+}
+	
+.contact input[type=text], select {
+    width: 640px;
+    padding: 12px 20px;
+    margin: 15px 10px;
+ 
+}
+
+	.contact textarea {
+		width: 640px;
+	}
+	
+	.contactline .line {
+		position: -webkit-sticky;
+	    position: sticky;
+		margin-top: 20px;
+		
+	}
+
+	footer {
+		position: sticky;
+		margin-top: 0;
+	}
+	
+
+	p {
+		font-size: 16px;
+		line-height: 1.5em;
+	}
+	
+	h1 {
+		font-size: 30px;
+	}
+	
+}
+
+
+
+@media screen and (max-width: 640px) {
+    nav a {   
+        float: none;
+		width: 100%;
+		margin: 40px 0 0 0;
+		font-size: 12px;
+		text-align: center;	
+    }
+	
+	.container {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	nav ul {
+		width: 600px;
+		float: none;
+		padding: 10px;
+		margin: 0 0 0 10px;
+		text-align: center;
+	}
+	
+	.navbar {   
+        float: none;
+		width: 100%;
+		font-size: 12px;
+		text-align: center;
+    }
+	
+	#val {
+		float: left;
+		width: 100%;
+		font-size: 20px;
+		padding: 20px;
+		margin: 0;
+		text-align: center;		
+	}
+	
+	img {
+		width: 450px;
+		padding: 20px 5px 15px 25px;	
+	}
+	
+	p{
+		font-size: 13px;
+	}
+	
+	.about {
+		width: 500px;
+		height: 760px;
+		padding: 10px;
+		margin: 50px 50px 0 50px;
+	}
+	
+	.portfolio {
+		width: 550px;
+		height: 4300px;
+		margin-left: 20px;
+	}
+	
+	
+div.gallery {
+    margin: 0;
+    float: left;
+    width: 480px;
+}
+
+
+div.gallery:hover {
+   opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+	h1 {
+		font-size: 20px;
+	}
+	
+	div.contact {
+		width: 550px;
+		height: 630px;
+		margin: 30px 20px 0;
+	}
+	
+	.contact form {
+	width: 500px;
+	height: 300px;
+	padding: 20px;
+	margin-top: 50px;
+	
+}
+	
+.contact input[type=text], select {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 15px 10px;
+ 
+}
+
+	.contact textarea {
+		width: 500px;
+	}
+	
+	.contactline .line {
+		position: -webkit-sticky;
+	    position: sticky;
+		margin-top: 20px;
+		
+	}
+
+	footer {
+		position: sticky;
+		margin-top: 0;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
